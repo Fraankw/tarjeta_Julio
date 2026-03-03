@@ -43,3 +43,7 @@
     background-color: var(--azul-ulsa);
     color: white;
 }
+.asignatura-card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+    transform: translateY(-3px); /* Un toque extra de pro */
+}
