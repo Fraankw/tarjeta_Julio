@@ -1,0 +1,16 @@
+:root {
+    --azul-ulsa: #1a237e; /* Tono institucional */
+    --azul-claro: #e3f2fd;
+}
+
+.asignatura-card {
+    border-radius: 15px; /* Requerimiento 1 */
+    overflow: hidden;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.card-header-visual {
+    height: 100px;
+    background: linear-gradient(135deg, var(--azul-ulsa), #0d47a1);
+}
